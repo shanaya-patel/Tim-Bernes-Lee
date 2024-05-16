@@ -1,0 +1,86 @@
+#name {
+    font-size: 50px;
+    font-family: "Comic Neue", cursive;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: monospace;
+}
+
+#bio {
+    font-family: cursive;
+    padding: 50px;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 50px;
+    margin: 8px auto;
+}
+
+.welcome-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+body {
+    padding-top: 1500px;
+    text-align: center;
+}
+
+.profile {
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    top: 0;
+    background: linear-gradient(#aff7e8 0%, #794efa, #7f8beb 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index:7; 
+}
+
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+.links{
+display:inline;
+padding-left:20px;
+padding-right:20px ;
+font-size: 20px;
+}
+.links:hover{
+    background-color: rgba(230, 131, 225, 0.989);
+    text-decoration:underline;
+
+
+}
+
+
+.menu {
+    position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+}
+
+ a{text-decoration: none;
+    
+
+}
+#conts iframe{
+width: 100%;
+
+}
+
+
